@@ -1,0 +1,21 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+
+int a;
+int b;
+
+void input()
+{
+	printf("πÿ∫Ø?");
+	scanf("%d", &a);
+	printf("≥Ù¿Ã?");
+	scanf("%d", &b);
+
+	printf("∫¯∫Ø¿« ±Ê¿Ã: %lf", (a * a) + (b * b));
+}
+
+int main()
+{
+	input();
+	return 0;
+}
